@@ -1,0 +1,22 @@
+{
+  "name": "webpack-babel",
+  "version": "1.0.0",
+  "description": "KT",
+  "main": "index.js",
+  "scripts": {
+    "web" : "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/soumyadipmondal/Webpack-Babel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/soumyadipmondal/Webpack-Babel/issues"
+  },
+  "homepage": "https://github.com/soumyadipmondal/Webpack-Babel#readme",
+  "devDependencies": {
+    "webpack": "^2.2.0-rc.0"
+  }
+}
