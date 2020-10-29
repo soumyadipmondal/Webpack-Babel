@@ -5,6 +5,16 @@ const config = {
     output: {
         path: path.resolve(__dirname, "mybuild"),
         filename: "mybundle.js"
+    },
+    module: {
+        rules: [
+            {
+                use: 'babel-loader',
+                test: /\.js$/
+
+            }
+        ]
+
     }
 };
 

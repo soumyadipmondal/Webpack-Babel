@@ -70,17 +70,20 @@
 /* 0 */
 /***/ function(module, exports) {
 
-const sum = (a, b) => a+b;
+var sum = function sum(a, b) {
+  return a + b;
+};
 
-module.exports = sum;
+module.exports = sum; //export default sum;
 
 /***/ },
 /* 1 */
 /***/ function(module, exports, __webpack_require__) {
 
-const importedSum = __webpack_require__(0);
+var importedSum = __webpack_require__(0); //import sum from './sum'
 
-const total = importedSum(10, 5);
+
+var total = importedSum(10, 5); //const total = sum(10, 5)
 
 console.log(total);
 
