@@ -4,7 +4,8 @@
   "description": "KT",
   "main": "index.js",
   "scripts": {
-    "web": "webpack"
+    "web": "webpack",
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -23,6 +24,7 @@
     "babel-core": "^6.26.3",
     "babel-loader": "^8.1.0",
     "babel-preset-env": "^1.7.0",
+    "jest": "^26.6.3",
     "webpack": "^2.2.0-rc.0"
   },
   "dependencies": {}
